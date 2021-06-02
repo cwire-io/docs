@@ -2,12 +2,12 @@
 module.exports = {
   title: 'CWIRE - Docs',
   tagline: 'Build your Admin Dashboard from your ORM schema in minutes',
-  url: 'https://cwire.github.io',
+  url: 'https://cwire-io.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'cwire',
+  organizationName: 'cwire-io',
   projectName: 'docs',
   themeConfig: {
     navbar: {
