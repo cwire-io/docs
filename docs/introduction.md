@@ -14,7 +14,7 @@ We believe that Internal frontends are imported for successfully projects, but i
 
 ### Getting Started?
 ***
-To Setup CWire please following guides for you Technologies. If you want to start completely from scratch please follow our [Quick Start Guide](./quick-guide):
+To Setup CWire please following guides for you Technologies. If you want to start completely from scratch please follow our [Quick Start Guide](./quick-start):
 * [NodeJS SDK](./nodejs/getting-started)
 * [PYTHON SDK](./python/getting-started)
 * [JAVA SDK](./java/getting-started)
