@@ -2,7 +2,7 @@
 module.exports = {
   title: 'CWIRE - Docs',
   tagline: 'Build your internal frontend from your ORM schema in minutes',
-  url: 'https://cwire-io.github.io',
+  url: 'https://docs.cwire.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
