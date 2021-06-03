@@ -1,33 +1,13 @@
-# Website
+# [CWire Documentation](https://docs.cwire.io)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+[CWire](https://cwire.io) is a SaaS Tool to help companies to build management and reporting tools with less code.
+In this open source repository you find all product related documentations.
 
-## Installation
-
-```console
-yarn install
-```
-
-## Local Development
-
-```console
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```console
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+# Setup
+Our documentation is based on the [docusaurus project](https://docusaurus.io/)
+To run this project locally you need to following this steps:
+1. Install nodejs >= 14.0.0 and install yarn (``npm i -g yarn``)
+2. ``git clone git@github.com:cwire-io/docs.git``
+3. ``cd docs``
+4. ``yarn``
+5. ``yarn start``

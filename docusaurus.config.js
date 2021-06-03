@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'CWIRE - Docs',
-  tagline: 'Build your Admin Dashboard from your ORM schema in minutes',
+  tagline: 'Build your internal frontend from your ORM schema in minutes',
   url: 'https://cwire-io.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -11,23 +11,26 @@ module.exports = {
   projectName: 'docs',
   themeConfig: {
     navbar: {
-      title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'CWire Logo',
+        src: 'img/cwire.svg',
       },
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          label: 'Docs',
           position: 'left',
-          label: 'Tutorial',
+          docId: 'introduction',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          label: 'App',
+          position: 'right',
+          href: 'https://app.cwire.io',
+        },
+        {
           label: 'GitHub',
           position: 'right',
+          href: 'https://github.com/cwire-io',
         },
       ],
     },
@@ -38,8 +41,20 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Introduction',
+              to: '/docs/introduction',
+            },
+            {
+              label: 'NodeJS',
+              to: '/docs/nodejs/getting-started',
+            },
+            {
+              label: 'Python',
+              to: '/docs/python/getting-started',
+            },
+            {
+              label: 'Java',
+              to: '/docs/java/getting-started',
             },
           ],
         },
@@ -48,33 +63,24 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/blog',
+              href: 'https://stackoverflow.com/questions/tagged/cwire',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/cwire-io/',
+            },
+            {
+              label: 'Website',
+              href: 'https://cwire.io',
+            },
+            {
+              label: 'Imprint',
+              href: 'https://cwire.io/imprint.html'
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CWire, Inc. Built with Docusaurus.`,
     },
   },
   presets: [
@@ -83,9 +89,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/cwire-io/docs/edit/master/',
         },
         blog: {
           showReadingTime: true,
