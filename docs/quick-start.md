@@ -5,7 +5,7 @@ description: Start from scratch with CWire
 ---
 ## Disclaimer
 ***
-This guide is a general quick start guide, if you want to use cwire with specific tooling please checkout our getting started guides for the SDK, Databases. This guide only show a example implementation of cwire with [NodeJS](https://nodejs.org/) and [Sequelize](https://sequelize.org/).
+This guide is a general quick start guide. If you want to use cwire with specific tooling please checkout our getting started guides for the SDK, Databases. This guide only shows an example implementation of cwire with [NodeJS](https://nodejs.org/) and [Sequelize](https://sequelize.org/).
 
 
 ## Setup
