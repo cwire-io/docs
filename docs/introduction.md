@@ -6,7 +6,9 @@ description: Getting started with CWire
 
 # Introduction
 ***
-**[CWire](https://cwire.io)** helps you to build internal application (like administration tools, dashboards, ...) with less code.
+**[CWire](https://cwire.io)** helps you to build internal applications like dashboards and administration tools with less code.
+At the same time we value the way developers work and integrate with usual backend environments.
+
 
 ### Why should I use CWire?
 ***
@@ -15,7 +17,4 @@ To solve this issues, we build an easy to integrate SDK on top of your favourite
 
 ### Getting Started
 ***
-To setup CWire please following guides for you technologies. If you want to start completely from scratch please follow our [Quick Start Guide](./quick-start):
-* [NodeJS SDK](./nodejs/getting-started)
-* [PYTHON SDK](./python/getting-started)
-* [JAVA SDK](./java/getting-started)
+To setup CWire please follow our quick start [Quick Start Guide](./quick-start)
