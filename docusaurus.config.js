@@ -1,6 +1,6 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'CWIRE - Docs',
+  title: 'Docs',
   tagline: 'Build your internal frontend from your ORM schema in minutes',
   url: 'https://docs.cwire.io',
   baseUrl: '/',
@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     navbar: {
       logo: {
-        alt: 'CWire Logo',
+        alt: 'cwire Logo',
         src: 'img/cwire.svg',
       },
       items: [
@@ -20,17 +20,22 @@ module.exports = {
           type: 'doc',
           label: 'Docs',
           position: 'left',
-          docId: 'introduction',
+          docId: 'introduction/introduction',
         },
         {
-          label: 'App',
-          position: 'right',
-          href: 'https://app.cwire.io',
-        },
-        {
-          label: 'GitHub',
           position: 'right',
           href: 'https://github.com/cwire-io',
+          className: 'header-github-link',
+        },
+        {
+          label: 'Sign In',
+          position: 'right',
+          href: 'https://login.cwire.io/signIn',
+        },
+        {
+          label: 'Try Now',
+          position: 'right',
+          href: 'https://login.cwire.io/signUp',
         },
       ],
     },
@@ -44,18 +49,18 @@ module.exports = {
               label: 'Introduction',
               to: '/docs/introduction',
             },
-            {
-              label: 'NodeJS',
-              to: '/docs/nodejs/getting-started',
-            },
-            {
-              label: 'Python',
-              to: '/docs/python/getting-started',
-            },
-            {
-              label: 'Java',
-              to: '/docs/java/getting-started',
-            },
+            // {
+            //   label: 'NodeJS',
+            //   to: '/docs/nodejs/getting-started',
+            // },
+            // {
+            //   label: 'Python',
+            //   to: '/docs/python/getting-started',
+            // },
+            // {
+            //   label: 'Java',
+            //   to: '/docs/java/getting-started',
+            // },
           ],
         },
         {
@@ -69,6 +74,11 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/cwire-io/',
             },
+          ],
+        },
+        {
+          title: 'More',
+          items: [
             {
               label: 'Website',
               href: 'https://cwire.io',
@@ -78,9 +88,9 @@ module.exports = {
               href: 'https://cwire.io/imprint.html'
             },
           ],
-        },
+        }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} CWire, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} cwire.io`,
     },
   },
   presets: [

@@ -1,6 +1,6 @@
-# [CWire Documentation](https://docs.cwire.io)
+# [cwire Documentation](https://docs.cwire.io)
 
-[CWire](https://cwire.io) is a SaaS Tool to help companies to build management and reporting tools with less code.
+[cwire](https://cwire.io) is a SaaS Tool to help companies to build management and reporting tools with less code.
 In this open source repository you find all product related documentations.
 
 # Setup
