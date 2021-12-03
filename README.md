@@ -11,3 +11,7 @@ To run this project locally you need to following this steps:
 3. ``cd docs``
 4. ``yarn``
 5. ``yarn start``
+
+
+# Deploy
+GIT_USER=<User> yarn deploy

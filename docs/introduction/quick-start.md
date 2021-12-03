@@ -77,8 +77,7 @@ main();
 ```
 
 ### Last steps:
-After you adding the server.mjs you can start this example server.
-For this you need to go back in the terminal/cmd and run following command:
+After adding the server.mjs you can start the example server from your command line.
 ```shell
 node server.mjs
 ```
@@ -86,5 +85,4 @@ After you starting the example server you can go to [cwire app](https://app.cwir
 new example data.
 
 ## What's next?
-After this please check out our other concepts, implementations and docs pages to get a better overview about cwire
-tooling. OR you play with other [Github Examples](https://github.com/cwire-io/nodejs-sdk/tree/master/examples).
+Explore our other [Github Examples](https://github.com/cwire-io/nodejs-sdk/tree/master/examples).
